@@ -1,0 +1,489 @@
+/*
+  Theme Name:
+  Author: 
+  Support: 
+  Description: 
+  Version:
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Google Fonts
+2. Default Color
+3. Theme Default css
+4. Section Title
+5. Navbar
+6. Hero Area
+7. Service area
+8. About Us
+9. Foundars
+10. Footer
+11. footer copyright
+*/
+
+
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
+
+/* Default Color */
+:root {
+	--bg-light: #F3F3F3;
+}
+
+
+/* 1. Theme default css */
+ body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+a,
+.button,button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus,
+button:focus,input:focus, textarea:focus {
+	text-decoration: none;
+	outline: none;
+}
+button{cursor: pointer}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #777777;
+	margin-bottom: 15px;
+}
+a{
+	color: #333;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+/* Section Title */
+
+.section-title {
+    margin-bottom: 80px;
+}
+.section-title h2 {
+    font-size: 42px;
+    line-height: 34px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.section-title p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.section-title p:before {
+	content: "";
+	background-color: #333;
+	position: absolute;
+	width: 180px;
+	height: 1px;
+	margin-left: -90px;
+	left: 50%;
+	bottom: 0;
+}
+
+.section-title p:after {content: "";
+	position: absolute;
+	background-color: #333;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	width: 14px;
+	height: 14px;
+	bottom: -7px;
+	right: 50%;
+	margin-right: -7px;
+}
+
+/* Custom css start */
+
+/* Navbar */
+.navbar-brand {
+    width: 115px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.main-menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* Navbar End */
+
+/* Hero Area */
+.hero-area-content  {
+	padding: 140px 0;
+}
+.hero-area-content h1 {
+    font-size: 72px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.hero-area-content h5 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.hero-area-content p {
+    font-size: 16px;
+	margin-top: 34px;
+	padding: 0 22px;
+}
+/* Hero Area End */
+
+
+/* Service Area */
+.service-section-wrap {
+	background-color: var(--bg-light);
+}
+.service-icon {
+    width: 120px;
+}
+
+.service-icon img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.service-content h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.service-content p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.service-content a.service-link {
+    display: inline-block;
+    font-size: 16px;
+    background-color: #333;
+    border: 2px solid transparent;
+    padding: 10px 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    /* opacity: 0;
+    visibility: hidden; */
+    transition: all ease 0.4s;
+    color: #fff;
+    /* transform: translateY(-65px); */
+}
+
+/* .service-content:hover a.service-link {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+} */
+
+.service-content a.service-link:hover {
+    background-color: #fff;
+    color: #333;
+    border-color: #333;
+}
+
+/* Service Area End */
+
+
+/* About Us */
+.single-about {
+    border: 1px solid #eee;
+    padding: 15px 10px;
+    min-height: 300px;
+    box-shadow: 0 0 21px -19px;
+}
+
+.single-about h2 {
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+
+.single-about span {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #aba8a8;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.single-about p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.blockquote-area blockquote {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 25px;
+    color: #080808;
+}
+.blockquote-area span {
+    font-size: 16px;
+    color: #777;
+	display: inline-block;
+	font-style: italic;
+}
+/* About Us End */
+
+
+
+/* Foundars Area */
+.single-founders {
+	background-color: var(--bg-light);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+.single-founders.slide-1 {
+	background-image: url('../img/investors/img-1.jpg');
+}
+.single-founders.slide-2 {
+	background-image: url('../img/investors/img-2.jpg');
+}
+
+.foundars-content h3 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 38px;
+}
+
+.foundars-content h6 {
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.foundars-content p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.foundars-content {
+    padding-top: 40px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.foundars-content:before,.foundars-content:after {
+	content: "";
+	position: absolute;
+	width: 350px;
+	height: 1px;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+}
+.foundars-content:after {
+	width: 180px;
+	height: 4px;
+	top: -2px;
+}
+.founders-slider-active .slick-arrow {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    border: none;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.founders-slider-active .slick-prev {
+    right: 290px;
+    z-index: 1;
+}
+.founders-slider-active .slick-arrow.slick-next i {
+	margin-left: 10px;
+}
+/* Foundars Area End */
+
+
+/* Footer Wid Area */
+footer {
+	background-color: #212428;
+}
+.single-footer-wid h3 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.single-footer-wid p {
+    color: #999;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.single-footer-wid ul.social-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.single-footer-wid ul.social-links li a {
+    color: #999;
+    font-size: 34px;
+}
+
+.single-footer-wid ul.social-links li a:hover {
+    color: #fff;
+}
+.single-footer-wid h5 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 26px;
+}
+.single-footer-wid ul li a {
+    color: #999;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+    display: block;
+}
+
+.single-footer-wid ul li {
+    margin: 5px  0;
+}
+
+.single-footer-wid ul li a:hover {
+    color: #fff;
+}
+.footer-wid-wrapper .baeffect {
+	position: relative;
+}
+
+.footer-wid-wrapper .baeffect:before {
+	content: "";
+	background-color: #fff;
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	left: 0;
+	top: 0;
+}
+
+.footer-wid-wrapper .baeffect:after {
+	content: "";
+	position: absolute;
+	background-color: #fff;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	width: 14px;
+	height: 14px;
+	top: -7px;
+	right: 50%;
+	margin-right: -7px;
+}
+
+.company-img-slider .slick-arrow {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    font-size: 22px;
+    height: 45px;
+    width: 55px;
+    line-height: 42px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.company-img-slider .slick-arrow.slick-prev {
+    right: 95px;
+    z-index: 1;
+}
+
+.company-img-slider .slick-arrow:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer Wid Area End */
+
+
+/* footer copyright */
+.footer-copyright p {
+    color: #999;
+	font-size: 14px;
+	margin-bottom: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* footer copyright End */

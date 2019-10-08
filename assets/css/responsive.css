@@ -1,0 +1,170 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Service */
+    .service-content p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-right: 24px;
+    }
+    .single-about {
+        margin-bottom: 30px;
+    }
+    /* Foundars Area */
+    .founders-slider-active .slick-arrow {
+        right: 80px;
+    }
+    .founders-slider-active .slick-prev {
+        right: 175px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* Hero Area */
+   .hero-area-content h1 {
+        font-size: 58px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    .hero-area-content h5 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    /* Service Area */
+    .service-icon {
+        width: 90px;
+    }
+    .service-content p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .service-content a.service-link {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    /* Blockquote */
+    .blockquote-area blockquote {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /* Section Title */
+    .section-title h2 {
+        font-size: 34px;
+        line-height: 28px;
+    }
+    .section-title p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+   /* Hero Area */
+   .hero-area-content {
+	    padding: 50px 0;
+    }
+    .hero-area-content h1 {
+        font-size: 36px;
+    }
+    .hero-area-content h5 {
+        font-size: 17px;
+    }
+    .hero-area-content p {
+        font-size: 14px;
+        margin-top: 25px;
+        line-height: 24px;
+        padding: 0 0px;
+    }
+    /* Service */
+    .single-service {
+        margin-bottom: 40px;
+    }
+    /* About */
+    .single-about {
+        min-height: auto;
+    }
+    .single-about {
+        margin-bottom: 30px;
+    }
+    .single-about h2 {
+        font-size: 38px;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    /* BLockquote */
+    .blockquote-area blockquote {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 25px;
+        color: #080808;
+    }
+
+    /* Foundars */
+    .single-founders {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .foundars-content {
+        padding-top: 0;
+        margin-top: 30px;
+    }
+    .single-founders.slide-1,.single-founders.slide-2 {
+        background-image: none;
+    }
+    .foundars-content::before, .foundars-content::after {
+        display: none;
+    }
+    .foundars-content h3 {
+        font-weight: 600;
+        color: #333;
+        font-size: 24px;
+    }
+    .foundars-content h6 {
+        color: #333;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    .foundars-content p {
+        color: #333;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* Footer Wid */
+    .single-footer-wid {
+        margin-bottom: 30px;
+    }
+
+    /* Footer Copyright */
+    .footer-copyright p {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /* Service */
+   .service-content a.service-link {
+	    padding: 10px 20px;
+    }
+    .service-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+
+
+
