@@ -201,6 +201,29 @@ a{
 }
 /* Hero Area End */
 
+/* breadCrumb */
+.hero-area-wrap.breadCrumb {
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+.hero-area-wrap.breadCrumb::before {
+    position: absolute;
+    content: '';
+    background-color: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3; 
+}
+.hero-area-wrap.breadCrumb.companies {
+    background-image: url('../img/companies-img.jpg');
+}
+.hero-area-wrap.breadCrumb .hero-area-content h1 {
+    color: #fff;
+}
+/* breadCrumb End */
 
 /* Service Area */
 .service-section-wrap {
@@ -372,7 +395,6 @@ a{
 	margin-left: 10px;
 }
 /* Foundars Area End */
-
 
 /* Footer Wid Area */
 footer {
