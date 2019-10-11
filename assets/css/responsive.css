@@ -151,6 +151,16 @@
     .footer-copyright p {
         font-size: 13px;
     }
+    .tab-title-area .title {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+    .tab-title-area .text {
+        width: 100%;
+        padding-right: 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
