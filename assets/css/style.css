@@ -186,7 +186,21 @@ a{
     background-color: #2d3239;
     color: #fff;
 }
-
+.read-more {
+    font-size: 14px;
+    color:  #777777;
+    line-height: 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.read-more:hover {
+    color: #333;
+}
+.read-more i {
+    margin-left: 5px;
+}
 /* Default Color */
 .bg-dark {
     background-color: var(--bg-dark) !important;
@@ -593,6 +607,10 @@ a{
     top: -1px;
     background-color: #000;
 }
+.content-title-area.border-bottom {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;   
+}
 .tab-element .tab-img a {
     position: relative;
 }
@@ -610,6 +628,15 @@ a{
 }
 .section-linked-content .s-linked-btn {
     width: calc(100% - 342px);
+}
+.section-linked-content .text p {
+    margin-bottom: 0;
+}
+
+.section-linked-content .text p span {
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
 }
 /* Section Linked Area End */
 
@@ -719,6 +746,22 @@ a{
 /* About Rocket Area End */
 
 
+
+/* Media Content */
+.midea-content p.meta {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.midea-content h4 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.midea-content {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 35px;
+}
 
 
 
