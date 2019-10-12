@@ -1,24 +1,30 @@
 /*
-  Theme Name:
-  Author: 
-  Support: 
-  Description: 
-  Version:
+  Theme Name: Company Portfolio
+  Author: Cluster Clcle
+  Support: clustercycle@gmail.com
+  Description: This is a Company Portfolio Website
+  Version: 1.0.0
 */
 
 /* CSS Index 
 -----------------------------------
 1. Google Fonts
 2. Default Color
-3. Theme Default css
-4. Section Title
-5. Navbar
-6. Hero Area
-7. Service area
+3. Theme default css
+4. Navbar
+5. Hero Area
+6. breadCrumb
+7. Service Area
 8. About Us
-9. Foundars
-10. Footer
-11. footer copyright
+9. Foundars Area
+10. Tabs
+11. Section Linked Area
+12. CTA Area
+13. Typer Js
+14. About Rocket Area
+15. Media Content
+16. Footer Wid Area
+17. footer copyright
 */
 
 
@@ -357,18 +363,9 @@ a{
     padding: 10px 35px;
     font-weight: 500;
     text-transform: capitalize;
-    /* opacity: 0;
-    visibility: hidden; */
     transition: all ease 0.4s;
     color: #fff;
-    /* transform: translateY(-65px); */
 }
-
-/* .service-content:hover a.service-link {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-} */
 
 .service-content a.service-link:hover {
     background-color: #fff;
@@ -762,18 +759,6 @@ a{
     border-bottom: 1px solid #eee;
     margin-bottom: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer Wid Area */
 footer {
