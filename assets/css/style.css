@@ -28,11 +28,16 @@
 
 /* Default Color */
 :root {
-	--bg-light: #F3F3F3;
+    --bg-light: #F3F3F3;
+    --bg-dark: #212428;
 }
 
 
 /* 1. Theme default css */
+html,body {
+    scroll-behavior: smooth;
+}
+
  body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: normal;
@@ -150,7 +155,8 @@ a{
 	bottom: 0;
 }
 
-.section-title p:after {content: "";
+.section-title p:after {
+    content: "";
 	position: absolute;
 	background-color: #333;
 	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -161,6 +167,30 @@ a{
 	margin-right: -7px;
 }
 
+/* Default Button */
+.default-btn {
+    width: 270px;
+    height: 65px;
+    background-color: #fff;
+    color: #2d3239;
+    border: 1px solid #2d3239;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 65px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+}
+.default-btn:hover {
+    background-color: #2d3239;
+    color: #fff;
+}
+
+/* Default Color */
+.bg-dark {
+    background-color: var(--bg-dark) !important;
+}
 /* Custom css start */
 
 /* Navbar */
@@ -273,9 +303,13 @@ a{
 .hero-area-wrap.breadCrumb.companies {
     background-image: url('../img/companies-img.jpg');
 }
+.hero-area-wrap.breadCrumb.careers {
+    background-image: url('../img/hero_careers.jpg');
+}
 .hero-area-wrap.breadCrumb .hero-area-content h1 {
     color: #fff;
 }
+
 /* breadCrumb End */
 
 /* Service Area */
@@ -519,38 +553,38 @@ a{
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
-.tab-title-area .title h2 {
+.content-title-area .title h2 {
     font-size: 42px;
     font-weight: 600;
     line-height: 42px;
 }
 
-.tab-title-area .title {
+.content-title-area .title {
     width: 45%;
     padding-left: 10px;
     padding-right: 15px;
 }
 
-.tab-title-area .text {
+.content-title-area .text {
     width: 70%;
     padding-right: 10px;
 }
 
-.tab-title-area .text p {
+.content-title-area .text p {
     color: #666;
     font-size: 16px;
     line-height: 26px;
 }
 
-.tab-title-area {
+.content-title-area {
     margin-bottom: 40px;
     position: relative;
     padding-top: 40px;
 }
 
-.tab-title-area::before {content: "";position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;opacity: 0.5;}
+.content-title-area::before {content: "";position: absolute;top: 0;left: 0;width: 100%;height: 1px;background-color: #000;opacity: 0.5;}
 
-.tab-title-area::after {
+.content-title-area::after {
     content:  "";
     position: absolute;
     width: 240px;
@@ -563,6 +597,139 @@ a{
     position: relative;
 }
 /* Tabs  */
+
+/* Section Linked Area */
+.section-linked-content  {
+    padding: 40px 20px;
+    padding-bottom: 80px;
+    background-color: #fff;
+    margin-top: -80px;
+}
+.section-linked-content .text {
+    width: 342px;
+}
+.section-linked-content .s-linked-btn {
+    width: calc(100% - 342px);
+}
+/* Section Linked Area End */
+
+/* Cta Area */
+.cta-area-wrapper.bg-dark {
+    color: #fff;
+    position: relative;
+}
+.cta-area-wrapper.bg-dark::after {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 1px;
+    bottom: 0;
+    left: 50%;
+    background-color: #fff; 
+}
+.cta-area-wrapper.bg-dark .content-title-area::before,
+.cta-area-wrapper.bg-dark .content-title-area::after {
+    background-color: #fff;
+}
+.cta-area-wrapper.bg-dark .content-title-area .title h2 {
+    color: inherit;
+}
+.cta-area-wrapper.bg-dark .content-title-area .text p {
+    color: inherit;
+}
+.cta-area-wrapper.bg-dark .content-title-area .text .default-btn {
+    color: inherit;
+    border-color: #fff;
+    background-color: transparent;
+}
+.cta-area-wrapper.bg-dark .content-title-area .text .default-btn:hover {
+    color: #2d3239;
+    border-color: #2d3239;
+    background-color: #fff;
+}
+.cta-area-wrapper.bg-img {
+    background-size: cover;
+    background-position: center top;
+}
+.cta-area-wrapper.bg-img::after {
+    top: 0;
+    bottom: auto;
+}
+#rocket-jobs {
+    background-image: url('../img/rocket_tower_dark.jpg');
+}
+
+/* Cta Area End */
+
+
+/* Typer Js  */
+.typer-js-wrapper {
+    position: relative;
+}
+.typer-js-wrapper::before ,.typer-js-wrapper::after{
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 1px;
+    top: 0;
+    left: 50%;
+    background-color: #000; 
+}
+.typer-js-wrapper::after {
+    bottom: 0;
+    top: auto;
+}
+
+.typer-js-wrapper h3 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.typer-js-wrapper h3 span {
+    text-decoration: underline;
+    color: #333333 !important;
+}
+
+/* Typer Js End */
+
+/* About Rocket Area */
+.sing-rAbout-contant { 
+    margin-bottom: 40px;
+}
+.sing-rAbout-contant h6 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sing-rAbout-contant p {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 81%;
+}
+.about-rocket-title h3 {
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.about-rocket-title p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+/* About Rocket Area End */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer Wid Area */

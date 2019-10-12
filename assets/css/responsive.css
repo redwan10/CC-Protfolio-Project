@@ -24,6 +24,13 @@
     .founders-slider-active .slick-prev {
         right: 175px;
     }
+    /* Section Link */
+    .s-linked-btn .default-btn {
+        width: 200px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 12px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -57,10 +64,39 @@
         line-height: 30px;
         margin-bottom: 20px;
     }
+    /* Section Link */
+    .s-linked-btn .default-btn {
+        width: 180px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 12px;
+    }
+    .section-linked-content .text {
+        width: 200px;
+    }
+    .section-linked-content .s-linked-btn {
+        width: calc(100% - 200px);
+    }
+    /* Content Title */
+    .content-title-area .title h2 {
+        font-size: 36px;
+    }
+
+    /* About Rocket Job Section */
+    .about-rocket-title {
+        margin-bottom: 30px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
+    /* Default Button */
+    .default-btn {
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+    }
     /* Section Title */
     .section-title h2 {
         font-size: 34px;
@@ -151,15 +187,77 @@
     .footer-copyright p {
         font-size: 13px;
     }
-    .tab-title-area .title {
+    .content-title-area .title {
         width: 100%;
         padding-left: 0;
         padding-right: 0;
         margin-bottom: 25px;
     }
-    .tab-title-area .text {
+    .content-title-area .text {
         width: 100%;
         padding-right: 0;
+    }
+    /* Section Link */
+    .section-linked-content {
+        margin-top: 0px;
+        padding: 30px 20px;
+        padding-bottom: 30px;
+    }
+    .section-linked-content .text {
+        width: 100%;
+    }
+    .section-linked-content .s-linked-btn {
+        width: 100%;
+    }
+    /* Default Button */
+    .default-btn {
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    /* About Rocket Job Section */
+    .about-rocket-title {
+        margin-bottom: 30px;
+    }
+    .about-rocket-title h3 {
+        line-height: 42px;
+        font-size: 24px;
+    }
+    /* CTA Area */
+    .cta-area-wrapper {
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+    .content-title-area .title h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .content-title-area .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .content-title-area::after {
+        width: 95px;
+    }
+    /* Typer JS */
+    .typer-js-wrapper h3 {
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    /* About Rocket Section */
+    .about-rocket-wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sing-rAbout-contant {
+        margin-bottom: 15px;
+    }
+    .footer-wid-wrapper {
+        padding-bottom: 0px;
     }
 }
 
@@ -172,6 +270,45 @@
     .service-content p {
         font-size: 15px;
         line-height: 24px;
+    }
+    /* Section Link */
+    .section-linked-content {
+        margin-top: 0px;
+        padding: 30px 20px;
+        padding-bottom: 50px;
+    }
+    .section-linked-content .text {
+        width: 100%;
+    }
+    .section-linked-content .s-linked-btn {
+        width: 100%;
+    }
+    .s-linked-btn .default-btn {
+        width: 190px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+    }
+    /* Cta Area */
+    .content-title-area .default-btn {
+        width: 190px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+    }
+    /* About Rocket Job Section */
+    .about-rocket-title {
+        margin-bottom: 30px;
+    }
+    .about-rocket-title h3 {
+        line-height: 42px;
+        font-size: 24px;
+    }
+    .button-area .default-btn {
+        width: 190px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
     }
 }
 
