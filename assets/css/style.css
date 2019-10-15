@@ -6,7 +6,7 @@
   Version: 1.0.0
 */
 
-/* CSS Index 
+/* CSS Index
 -----------------------------------
 1. Google Fonts
 2. Default Color
@@ -23,8 +23,9 @@
 13. Typer Js
 14. About Rocket Area
 15. Media Content
-16. Footer Wid Area
-17. footer copyright
+16. Investors Form 
+17. Footer Wid Area
+18. footer copyright
 */
 
 
@@ -222,7 +223,7 @@ a{
     width: 100%;
 }
 
-.main-menu li { 
+.main-menu li {
     margin: 0 10px;
 }
 .main-menu li:last-child {
@@ -318,7 +319,7 @@ a{
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.3; 
+    opacity: 0.3;
 }
 .hero-area-wrap.breadCrumb.companies {
     background-image: url('../img/companies-img.jpg');
@@ -501,7 +502,7 @@ a{
     background-color: #fff;
     margin-top: -40px;
 }
-.tabs-menu li { 
+.tabs-menu li {
     margin: 0 10px;
 }
 .tabs-menu li a  {
@@ -606,7 +607,7 @@ a{
 }
 .content-title-area.border-bottom {
     border-bottom: 1px solid #eee;
-    padding-bottom: 40px;   
+    padding-bottom: 40px;
 }
 .tab-element .tab-img a {
     position: relative;
@@ -649,7 +650,7 @@ a{
     width: 1px;
     bottom: 0;
     left: 50%;
-    background-color: #fff; 
+    background-color: #fff;
 }
 .cta-area-wrapper.bg-dark .content-title-area::before,
 .cta-area-wrapper.bg-dark .content-title-area::after {
@@ -697,7 +698,7 @@ a{
     width: 1px;
     top: 0;
     left: 50%;
-    background-color: #000; 
+    background-color: #000;
 }
 .typer-js-wrapper::after {
     bottom: 0;
@@ -717,7 +718,7 @@ a{
 /* Typer Js End */
 
 /* About Rocket Area */
-.sing-rAbout-contant { 
+.sing-rAbout-contant {
     margin-bottom: 40px;
 }
 .sing-rAbout-contant h6 {
@@ -759,6 +760,61 @@ a{
     border-bottom: 1px solid #eee;
     margin-bottom: 35px;
 }
+
+/* Investors Form */
+form.investors-form legend {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+form.investors-form .from-group {
+    margin-bottom: 20px;
+}
+form.investors-form label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+form.investors-form input {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    line-height: 45px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+form.investors-form button.submitButton {
+    width: 120px;
+    height: 45px;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+form.investors-form button.submitButton:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+
 
 /* Footer Wid Area */
 footer {

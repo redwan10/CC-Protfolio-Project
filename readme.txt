@@ -80,3 +80,14 @@
 6. Media Content
 7. Footer Wid Area
 8. Footer Copyright Area
+
+
+
+***** investors.html *****
+
+1. Hedaer Area
+    *Menu Area
+    *Hero Area
+2. investors Form
+3. Footer Wid Area
+4. Footer Copyright Area
